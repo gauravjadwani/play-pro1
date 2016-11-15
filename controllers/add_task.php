@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<?php
-include '../views/connection.php';
-session_start();
-    $email=$_SESSION["email"];
-    
-    $name=$r->hget($email,'name');
+    <?php
+    include '../views/connection.php';
+    session_start();
+        $email=$_SESSION["email"];
+
+        $name=$r->hget($email,'name');
 
 
 
-?>
+    ?>
 
 
 

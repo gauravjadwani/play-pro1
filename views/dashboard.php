@@ -35,7 +35,7 @@ session_start();
       <li><a href="notifications.php"><span class="glyphicon glyphicon-user"></span><?php echo $name; ?></a></li>
       
     <li><a href="../controllers/add_task.php"><span class="glyphicon glyphicon-log-in"></span> ADD_TASK</a></li>
-   
+    <li><a href="../views/add_project_view.php"><span class="glyphicon glyphicon-log-in"></span>ADD PROJECT</a></li>
     <li><a href="view_as_date.php"><span class="glyphicon glyphicon-log-in"></span>VIEW TASK AS DATE</a></li>
         
     <li><a href="../controllers/logout.php"><i class="fa fa-sign-out" aria-hidden="true"></i>Logout</a></li>
