@@ -1,6 +1,7 @@
 <?php
 
-
+session_start();
+$_SESSION['name']='gaurav';
 $date=  array("name"=>"guarav");
 $u=http_build_query($date);
 
